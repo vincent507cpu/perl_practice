@@ -62,6 +62,7 @@ while (<$inFH>){
         }
 }
 #print the information I want
+close $inFH;
 
 sub get_fasta{
         my ($db, $gi) = @_;
@@ -76,5 +77,6 @@ sub get_fasta{
                 chomp;
                 say $_;
         }
+        close $sysFH;
 }
 #get fasta information for the species I want
