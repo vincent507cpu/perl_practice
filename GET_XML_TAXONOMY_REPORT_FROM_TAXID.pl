@@ -1,4 +1,5 @@
 #!usr/bin/perl
+#I borrowed somebody's idea to wrap up this script
 
 use warnings;
 use strict;
